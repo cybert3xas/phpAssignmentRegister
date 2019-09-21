@@ -1,0 +1,32 @@
+.container{
+	margin-left: 150px;
+	border: solid lightgreen 8px;
+	width: 300px;
+	clear: both;
+}
+
+.container input{
+	width: 100%;
+	clear: both;
+}
+
+h1{
+	margin-left: 150px;
+	border: solid lightgreen 8px;
+	margin-right: 200px;
+}
+
+body{
+	background-image: url("pictures/foodRaining.gif");
+	background-size: cover;
+}
+
+#storeLayout {
+	border: solid white 10px;
+	background-color: lightblue;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-top: 350px;
+	margin-left: 510px;
+	margin-right: 510px;
+}
