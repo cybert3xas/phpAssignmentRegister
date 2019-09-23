@@ -1,20 +1,19 @@
 <?php
-    include 'item.php';
-
+    require_once 'item.php';
+    
 	$filename = "PLUCodes.txt";
     $fp = fopen($filename, "r");
-    
-    $myHashMap = array();//maps PLU with names
 
     $content = fread($fp, filesize($filename));
-    $lines = explode("\n", $content);//create an array 
+    $lines = explode("\n", $content); //create and array with all the lines [lines have PLU and NAME] 
     fclose($fp);
 
-    $list_items = array();
+    $list_items = array(); //array will hold all items
+
     for($i=0; $i < count($lines); $i++){
-        //split the string by the comma
+        //split the line by comma
         $holder = explode(",", $lines[$i]);
         $item = new item($holder[0],  $holder[1]);
-        array_push($list_items, $item);
+        array_push($list_items, $item); //the item to the list
     }
-    print_r($list_items);
+    print($list_items[0]->getPLU());
