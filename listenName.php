@@ -3,7 +3,6 @@
 
     $userName = $_POST['brow'];
     
-    echo $userName;
     for($i=0; $i<count($list_items); $i++){
         //echo "hello";
         if($userName == ($list_items[$i]->getName())){

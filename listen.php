@@ -4,7 +4,7 @@
 
     if(strlen($userPLU) == 4){
         for($i = 0; $i < count($list_items); $i++){
-            if(toString($userPLU) == ($list_items[$i]->getPLU())){
+            if($userPLU == ($list_items[$i]->getPLU())){
                 echo "{$list_items[$i]->getPLU()} {$list_items[$i]->getName()}";
             }
         }
