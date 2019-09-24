@@ -32,6 +32,9 @@
 			</form>
 			<!-- Add item to the list -->
 			<?php add_to_list($addedName, $addedPLU)?>
+			<form action="option.php" method="post">
+                <input type="submit" value="MAIN MENU" name="menuBtnAdd">
+            </form>
 		</div>
     </body>
 </html>
