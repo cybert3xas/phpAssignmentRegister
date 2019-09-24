@@ -1,7 +1,7 @@
 <?php
     require_once 'item.php';
     
-	$filename = "PLUCodes.txt";
+	$filename = "PLUItems.txt";
     $fp = fopen($filename, "r");
 
     $content = fread($fp, filesize($filename));
@@ -16,4 +16,4 @@
         $item = new item($holder[0],  $holder[1]);
         array_push($list_items, $item); //the item to the list
     }
-    print($list_items[0]->getPLU());
+?>

@@ -1,0 +1,44 @@
+3000,Alkmene Apples
+3001,Small Aurora/Southern Rose Apples
+3002,Cantared Apples
+3003,D'Estivale Apples
+3004,Discovery Apples
+3005,Golden Delicious Blush Apples
+3006,Ingrid Marie Apples
+3007,Lochbuie Apples
+0000,Rubinette Apples
+0001,Russet Apples
+0002,Small Cripps Red Apples
+0003,Worcester Apples
+0004,Abate Fetel Pears
+0005,Beurre Hardy Pears
+0006,Bon Rouge Pears
+0007,Clara Friis Pears
+0008,Concorde Pears
+0009,Conference Pears
+0010,Durondeau Pears
+0011,Flamingo Pears
+0012,General Leclerc Pears
+0013,Guyot Pears
+0014,Josephine Pears
+0015,Small Passe Crassane Pears
+0016,Rocha Pears
+0017,Rosemarie Pears
+0018,Triumph de Vienne Pears
+0019,Shamouti Oranges
+0020,Small Delta Seedless Oranges
+0021,Satsuma Tangerines/mandarins
+0022,Nova Tangerines/mandarins
+0023,Jamaican Tangor Tangerines/mandarins
+0024,Ellendale Tangerines/mandarins
+0025,Small Charentais Melon
+0026,Large Charentais Melon
+0027,"Large White Flesh, Tree Ripened, Ready-to-eat Nectarine"
+0028,Small Midknight Oranges
+0029,Queen Pineapple
+0030,Granadilla Passion fruit
+0031,Physalis/cape gooseberry/ground cherry
+0032,Red (skin color) Pitahaya
+0033,Rambutan
+0034,Mangosteen
+0035,Italia Grapes
